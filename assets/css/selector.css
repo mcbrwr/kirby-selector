@@ -1,5 +1,9 @@
 
-.selector {}
+.selector {
+    max-height: 15em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
     .selector .selector-item.selector-item-selected {
         background: #8dae28;
